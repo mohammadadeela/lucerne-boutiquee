@@ -1,0 +1,246 @@
+
+> rest-express@1.0.0 dev
+> NODE_ENV=development node_modules/.bin/tsx server/index.ts
+
+[1G[0K[server] listening on port 5000 (development)
+3:10:42 PM [express] serving on port 5000
+[email] Skipping SMTP verify — credentials not set
+Browserslist: browsers data (caniuse-lite) is 6 months old. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+3:10:51 PM [express] GET /api/auth/me 401 in 3ms :: {"message":"Unauthorized"}
+3:10:51 PM [express] GET /api/site-settings 200 in 9ms :: {}
+3:10:51 PM [express] GET /api/products 200 in 24ms :: []
+3:10:51 PM [express] GET /api/subcategories 200 in 20ms :: []
+3:10:51 PM [express] GET /api/categories 200 in 22ms :: [{"id":1,"name":"Dresses","nameAr":"فساتين","slug":"dresses","image":null,"showOnHome":false,"sizeGuide":"auto"},{"id":2,"name":"Tops & Blouses","nameAr":"بلوزات وقمصان","slug":"tops","image":null,"showOnHome":false,"sizeGuide":"auto"},{"id":3,"name":"Pants & Skirts","nameAr":"بناطيل وتنانير","slug":"pants-skirts","image":null,"showOnHome":false,"sizeGuide":"auto"},{"id":4,"name":"Shoes","nameAr":"شوزات","slug":"shoes","image":null,"showOnHome":false,"sizeGuide":"auto"},{"id":5,"name":"Bags","nameAr":"حقائب","slug":"bags","image":null,"showOnHome":false,"sizeGuide":"auto"},{"id":6,"name":"Accessories","nameAr":"إكسسوارات","slug":"accessories","image":null,"showOnHome":false,"sizeGuide":"auto"}]
+3:10:51 PM [express] GET /api/products/best-sellers 200 in 27ms :: []
+3:11:00 PM [express] GET /api/auth/me 401 in 0ms :: {"message":"Unauthorized"}
+3:11:00 PM [express] GET /api/site-settings 200 in 4ms :: {}
+3:11:00 PM [express] GET /api/products 200 in 2ms :: []
+3:11:00 PM [express] GET /api/subcategories 200 in 2ms :: []
+3:11:00 PM [express] GET /api/products/best-sellers 200 in 4ms :: []
+3:11:00 PM [express] GET /api/categories 200 in 2ms :: [{"id":1,"name":"Dresses","nameAr":"فساتين","slug":"dresses","image":null,"showOnHome":false,"sizeGuide":"auto"},{"id":2,"name":"Tops & Blouses","nameAr":"بلوزات وقمصان","slug":"tops","image":null,"showOnHome":false,"sizeGuide":"auto"},{"id":3,"name":"Pants & Skirts","nameAr":"بناطيل وتنانير","slug":"pants-skirts","image":null,"showOnHome":false,"sizeGuide":"auto"},{"id":4,"name":"Shoes","nameAr":"شوزات","slug":"shoes","image":null,"showOnHome":false,"sizeGuide":"auto"},{"id":5,"name":"Bags","nameAr":"حقائب","slug":"bags","image":null,"showOnHome":false,"sizeGuide":"auto"},{"id":6,"name":"Accessories","nameAr":"إكسسوارات","slug":"accessories","image":null,"showOnHome":false,"sizeGuide":"auto"}]
+3:13:00 PM [express] GET /api/auth/me 401 in 1ms :: {"message":"Unauthorized"}
+3:14:31 PM [express] GET /api/auth/me 401 in 1ms :: {"message":"Unauthorized"}
+3:15:01 PM [express] GET /api/auth/me 401 in 1ms :: {"message":"Unauthorized"}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:15:04 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Auth.tsx, /src/index.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:15:09 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Auth.tsx, /src/index.css[22m [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:15:14 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Auth.tsx, /src/index.css[22m [33m(x3)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:15:22 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Auth.tsx, /src/index.css[22m [33m(x4)[39m
+3:15:32 PM [express] GET /api/auth/me 401 in 1ms :: {"message":"Unauthorized"}
+3:16:02 PM [express] GET /api/auth/me 401 in 0ms :: {"message":"Unauthorized"}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:16:16 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/admin/Products.tsx, /src/index.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:16:24 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/admin/Products.tsx, /src/index.css[22m [33m(x2)[39m
+3:16:32 PM [express] GET /api/auth/me 401 in 1ms :: {"message":"Unauthorized"}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:16:37 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/admin/Products.tsx, /src/index.css[22m [33m(x3)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:16:51 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/admin/Products.tsx, /src/index.css[22m [33m(x4)[39m
+3:17:02 PM [express] GET /api/auth/me 401 in 0ms :: {"message":"Unauthorized"}
+3:17:33 PM [express] GET /api/auth/me 401 in 1ms :: {"message":"Unauthorized"}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:17:48 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/admin/Products.tsx, /src/index.css[22m [33m(x5)[39m

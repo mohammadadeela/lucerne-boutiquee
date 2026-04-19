@@ -1,0 +1,369 @@
+
+> rest-express@1.0.0 dev
+> NODE_ENV=development node_modules/.bin/tsx server/index.ts
+
+[1G[0K[server] listening on port 5000 (development)
+3:17:55 PM [express] serving on port 5000
+[email] Skipping SMTP verify — credentials not set
+Browserslist: browsers data (caniuse-lite) is 6 months old. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+3:18:01 PM [express] GET /api/auth/me 401 in 1ms :: {"message":"Unauthorized"}
+3:18:01 PM [express] GET /api/categories 304 in 7ms :: [{"id":1,"name":"Dresses","nameAr":"فساتين","slug":"dresses","image":null,"showOnHome":false,"sizeGuide":"auto"},{"id":2,"name":"Tops & Blouses","nameAr":"بلوزات وقمصان","slug":"tops","image":null,"showOnHome":false,"sizeGuide":"auto"},{"id":3,"name":"Pants & Skirts","nameAr":"بناطيل وتنانير","slug":"pants-skirts","image":null,"showOnHome":false,"sizeGuide":"auto"},{"id":4,"name":"Shoes","nameAr":"شوزات","slug":"shoes","image":null,"showOnHome":false,"sizeGuide":"auto"},{"id":5,"name":"Bags","nameAr":"حقائب","slug":"bags","image":null,"showOnHome":false,"sizeGuide":"auto"},{"id":6,"name":"Accessories","nameAr":"إكسسوارات","slug":"accessories","image":null,"showOnHome":false,"sizeGuide":"auto"}]
+3:18:01 PM [express] GET /api/products/best-sellers 304 in 7ms :: []
+3:18:01 PM [express] GET /api/site-settings 304 in 18ms :: {}
+3:18:01 PM [express] GET /api/subcategories 304 in 16ms :: []
+3:18:01 PM [express] GET /api/products 304 in 15ms :: []
+3:18:10 PM [express] GET /api/auth/me 401 in 1ms :: {"message":"Unauthorized"}
+3:18:10 PM [express] GET /api/site-settings 200 in 3ms :: {}
+3:18:10 PM [express] GET /api/products 200 in 3ms :: []
+3:18:16 PM [express] GET /api/auth/me 401 in 2ms :: {"message":"Unauthorized"}
+3:18:16 PM [express] GET /api/products 304 in 5ms :: []
+3:18:16 PM [express] GET /api/categories 200 in 4ms :: [{"id":1,"name":"Dresses","nameAr":"فساتين","slug":"dresses","image":null,"showOnHome":false,"sizeGuide":"auto"},{"id":2,"name":"Tops & Blouses","nameAr":"بلوزات وقمصان","slug":"tops","image":null,"showOnHome":false,"sizeGuide":"auto"},{"id":3,"name":"Pants & Skirts","nameAr":"بناطيل وتنانير","slug":"pants-skirts","image":null,"showOnHome":false,"sizeGuide":"auto"},{"id":4,"name":"Shoes","nameAr":"شوزات","slug":"shoes","image":null,"showOnHome":false,"sizeGuide":"auto"},{"id":5,"name":"Bags","nameAr":"حقائب","slug":"bags","image":null,"showOnHome":false,"sizeGuide":"auto"},{"id":6,"name":"Accessories","nameAr":"إكسسوارات","slug":"accessories","image":null,"showOnHome":false,"sizeGuide":"auto"}]
+3:18:16 PM [express] GET /api/subcategories 200 in 17ms :: []
+3:18:16 PM [express] GET /api/site-settings 304 in 22ms :: {}
+3:18:17 PM [express] GET /api/auth/me 401 in 1ms :: {"message":"Unauthorized"}
+3:18:17 PM [express] GET /api/site-settings 304 in 1ms :: {}
+3:18:17 PM [express] GET /api/products 304 in 2ms :: []
+3:18:17 PM [express] GET /api/subcategories 304 in 2ms :: []
+3:18:17 PM [express] GET /api/categories 304 in 2ms :: [{"id":1,"name":"Dresses","nameAr":"فساتين","slug":"dresses","image":null,"showOnHome":false,"sizeGuide":"auto"},{"id":2,"name":"Tops & Blouses","nameAr":"بلوزات وقمصان","slug":"tops","image":null,"showOnHome":false,"sizeGuide":"auto"},{"id":3,"name":"Pants & Skirts","nameAr":"بناطيل وتنانير","slug":"pants-skirts","image":null,"showOnHome":false,"sizeGuide":"auto"},{"id":4,"name":"Shoes","nameAr":"شوزات","slug":"shoes","image":null,"showOnHome":false,"sizeGuide":"auto"},{"id":5,"name":"Bags","nameAr":"حقائب","slug":"bags","image":null,"showOnHome":false,"sizeGuide":"auto"},{"id":6,"name":"Accessories","nameAr":"إكسسوارات","slug":"accessories","image":null,"showOnHome":false,"sizeGuide":"auto"}]
+3:18:17 PM [express] GET /api/products/best-sellers 200 in 6ms :: []
+3:18:32 PM [express] GET /api/auth/me 401 in 1ms :: {"message":"Unauthorized"}
+3:18:33 PM [express] POST /api/auth/login 200 in 141ms :: {"id":1,"email":"admin@lucerne.com","role":"admin","fullName":"Store Admin","phone":null,"address":null,"isVerified":true,"isBlocked":false,"createdAt":"2026-04-19T15:10:27.567Z"}
+3:18:33 PM [express] GET /api/auth/me 200 in 238ms :: {"id":1,"email":"admin@lucerne.com","role":"admin","fullName":"Store Admin","phone":null,"address":null,"isVerified":true,"isBlocked":false,"createdAt":"2026-04-19T15:10:27.567Z"}
+3:18:33 PM [express] GET /api/orders 200 in 188ms :: []
+3:18:33 PM [express] GET /api/admin/low-stock 200 in 193ms :: []
+3:18:33 PM [express] GET /api/stats 200 in 223ms :: {"totalProducts":0,"totalUsers":1,"totalOrders":0,"totalSales":0,"lowStockCount":0}
+3:18:36 PM [express] GET /api/subcategories 304 in 10ms :: []
+3:18:36 PM [express] GET /api/auth/me 304 in 11ms :: {"id":1,"email":"admin@lucerne.com","role":"admin","fullName":"Store Admin","phone":null,"address":null,"isVerified":true,"isBlocked":false,"createdAt":"2026-04-19T15:10:27.567Z"}
+3:18:36 PM [express] GET /api/products 304 in 13ms :: []
+3:18:36 PM [express] GET /api/products/best-sellers 304 in 16ms :: []
+3:18:36 PM [express] GET /api/categories 304 in 17ms :: [{"id":1,"name":"Dresses","nameAr":"فساتين","slug":"dresses","image":null,"showOnHome":false,"sizeGuide":"auto"},{"id":2,"name":"Tops & Blouses","nameAr":"بلوزات وقمصان","slug":"tops","image":null,"showOnHome":false,"sizeGuide":"auto"},{"id":3,"name":"Pants & Skirts","nameAr":"بناطيل وتنانير","slug":"pants-skirts","image":null,"showOnHome":false,"sizeGuide":"auto"},{"id":4,"name":"Shoes","nameAr":"شوزات","slug":"shoes","image":null,"showOnHome":false,"sizeGuide":"auto"},{"id":5,"name":"Bags","nameAr":"حقائب","slug":"bags","image":null,"showOnHome":false,"sizeGuide":"auto"},{"id":6,"name":"Accessories","nameAr":"إكسسوارات","slug":"accessories","image":null,"showOnHome":false,"sizeGuide":"auto"}]
+3:18:36 PM [express] GET /api/site-settings 304 in 17ms :: {}
+3:18:36 PM [express] GET /api/wishlist 200 in 6ms :: []
+3:18:37 PM [express] GET /api/stats 304 in 8ms :: {"totalProducts":0,"totalUsers":1,"totalOrders":0,"totalSales":0,"lowStockCount":0}
+3:18:37 PM [express] GET /api/admin/low-stock 304 in 7ms :: []
+3:18:37 PM [express] GET /api/orders 304 in 5ms :: []
+3:18:39 PM [express] GET /api/orders 304 in 6ms :: []
+3:19:02 PM [express] GET /api/wishlist 304 in 18ms :: []
+3:19:03 PM [express] POST /api/auth/logout 200 in 11ms :: {"message":"Logged out"}
+3:19:03 PM [express] GET /api/auth/me 401 in 4ms :: {"message":"Unauthorized"}
+3:19:03 PM [express] GET /api/wishlist 401 in 6ms :: {"message":"Unauthorized"}
+3:19:34 PM [express] GET /api/auth/me 401 in 16ms :: {"message":"Unauthorized"}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:19:42 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Auth.tsx, /src/index.css[22m
+3:19:46 PM [express] GET /api/auth/me 401 in 1ms :: {"message":"Unauthorized"}
+3:19:46 PM [express] GET /api/site-settings 304 in 2ms :: {}
+3:19:46 PM [express] GET /api/products 304 in 2ms :: []
+3:20:04 PM [express] GET /api/auth/me 401 in 17ms :: {"message":"Unauthorized"}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:20:06 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Auth.tsx, /src/index.css[22m [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:20:19 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Auth.tsx, /src/index.css[22m [33m(x3)[39m
+3:20:23 PM [express] GET /api/auth/me 401 in 1ms :: {"message":"Unauthorized"}
+3:20:23 PM [express] GET /api/site-settings 304 in 6ms :: {}
+3:20:23 PM [express] GET /api/products 304 in 3ms :: []
+3:20:34 PM [express] GET /api/auth/me 401 in 15ms :: {"message":"Unauthorized"}
+3:21:04 PM [express] GET /api/auth/me 401 in 50ms :: {"message":"Unauthorized"}
+3:21:13 PM [express] POST /api/auth/login 200 in 85ms :: {"id":1,"email":"admin@lucerne.com","role":"admin","fullName":"Store Admin","phone":null,"address":null,"isVerified":true,"isBlocked":false,"createdAt":"2026-04-19T15:10:27.567Z"}
+3:21:13 PM [express] GET /api/auth/me 304 in 8ms :: {"id":1,"email":"admin@lucerne.com","role":"admin","fullName":"Store Admin","phone":null,"address":null,"isVerified":true,"isBlocked":false,"createdAt":"2026-04-19T15:10:27.567Z"}
+3:21:13 PM [express] GET /api/orders 304 in 9ms :: []
+3:21:16 PM [express] GET /api/site-settings 304 in 9ms :: {}
+3:21:16 PM [express] GET /api/categories 304 in 9ms :: [{"id":1,"name":"Dresses","nameAr":"فساتين","slug":"dresses","image":null,"showOnHome":false,"sizeGuide":"auto"},{"id":2,"name":"Tops & Blouses","nameAr":"بلوزات وقمصان","slug":"tops","image":null,"showOnHome":false,"sizeGuide":"auto"},{"id":3,"name":"Pants & Skirts","nameAr":"بناطيل وتنانير","slug":"pants-skirts","image":null,"showOnHome":false,"sizeGuide":"auto"},{"id":4,"name":"Shoes","nameAr":"شوزات","slug":"shoes","image":null,"showOnHome":false,"sizeGuide":"auto"},{"id":5,"name":"Bags","nameAr":"حقائب","slug":"bags","image":null,"showOnHome":false,"sizeGuide":"auto"},{"id":6,"name":"Accessories","nameAr":"إكسسوارات","slug":"accessories","image":null,"showOnHome":false,"sizeGuide":"auto"}]
+3:21:16 PM [express] GET /api/auth/me 304 in 11ms :: {"id":1,"email":"admin@lucerne.com","role":"admin","fullName":"Store Admin","phone":null,"address":null,"isVerified":true,"isBlocked":false,"createdAt":"2026-04-19T15:10:27.567Z"}
+3:21:16 PM [express] GET /api/subcategories 304 in 21ms :: []
+3:21:16 PM [express] GET /api/products 304 in 20ms :: []
+3:21:16 PM [express] GET /api/products/best-sellers 304 in 24ms :: []
+3:21:17 PM [express] GET /api/wishlist 304 in 6ms :: []
+3:21:18 PM [express] GET /api/stats 304 in 7ms :: {"totalProducts":0,"totalUsers":1,"totalOrders":0,"totalSales":0,"lowStockCount":0}
+3:21:18 PM [express] GET /api/orders 200 in 6ms :: []
+3:21:18 PM [express] GET /api/admin/low-stock 304 in 5ms :: []
+3:21:26 PM [express] GET /api/wishlist 304 in 14ms :: []
+3:21:47 PM [express] GET /api/auth/me 304 in 18ms :: {"id":1,"email":"admin@lucerne.com","role":"admin","fullName":"Store Admin","phone":null,"address":null,"isVerified":true,"isBlocked":false,"createdAt":"2026-04-19T15:10:27.567Z"}
+3:21:53 PM [express] GET /api/wishlist 304 in 6ms :: []
+3:22:04 PM [express] POST /api/auth/logout 200 in 23ms :: {"message":"Logged out"}
+3:22:05 PM [express] GET /api/auth/me 401 in 5ms :: {"message":"Unauthorized"}
+3:22:05 PM [express] GET /api/wishlist 401 in 16ms :: {"message":"Unauthorized"}
+3:22:35 PM [express] GET /api/auth/me 401 in 15ms :: {"message":"Unauthorized"}
+3:22:51 PM [express] POST /api/auth/login 200 in 58ms :: {"id":1,"email":"admin@lucerne.com","role":"admin","fullName":"Store Admin","phone":null,"address":null,"isVerified":true,"isBlocked":false,"createdAt":"2026-04-19T15:10:27.567Z"}
+3:22:51 PM [express] GET /api/auth/me 304 in 5ms :: {"id":1,"email":"admin@lucerne.com","role":"admin","fullName":"Store Admin","phone":null,"address":null,"isVerified":true,"isBlocked":false,"createdAt":"2026-04-19T15:10:27.567Z"}
+3:22:51 PM [express] GET /api/orders 304 in 6ms :: []
+3:22:54 PM [express] GET /api/products 304 in 16ms :: []
+3:22:54 PM [express] GET /api/auth/me 304 in 14ms :: {"id":1,"email":"admin@lucerne.com","role":"admin","fullName":"Store Admin","phone":null,"address":null,"isVerified":true,"isBlocked":false,"createdAt":"2026-04-19T15:10:27.567Z"}
+3:22:54 PM [express] GET /api/site-settings 304 in 20ms :: {}
+3:22:54 PM [express] GET /api/subcategories 304 in 11ms :: []
+3:22:54 PM [express] GET /api/categories 304 in 37ms :: [{"id":1,"name":"Dresses","nameAr":"فساتين","slug":"dresses","image":null,"showOnHome":false,"sizeGuide":"auto"},{"id":2,"name":"Tops & Blouses","nameAr":"بلوزات وقمصان","slug":"tops","image":null,"showOnHome":false,"sizeGuide":"auto"},{"id":3,"name":"Pants & Skirts","nameAr":"بناطيل وتنانير","slug":"pants-skirts","image":null,"showOnHome":false,"sizeGuide":"auto"},{"id":4,"name":"Shoes","nameAr":"شوزات","slug":"shoes","image":null,"showOnHome":false,"sizeGuide":"auto"},{"id":5,"name":"Bags","nameAr":"حقائب","slug":"bags","image":null,"showOnHome":false,"sizeGuide":"auto"},{"id":6,"name":"Accessories","nameAr":"إكسسوارات","slug":"accessories","image":null,"showOnHome":false,"sizeGuide":"auto"}]
+3:22:54 PM [express] GET /api/products/best-sellers 304 in 32ms :: []
+3:22:55 PM [express] GET /api/wishlist 304 in 6ms :: []
+3:22:55 PM [express] GET /api/admin/low-stock 304 in 7ms :: []
+3:22:55 PM [express] GET /api/orders 200 in 7ms :: []
+3:22:55 PM [express] GET /api/stats 304 in 7ms :: {"totalProducts":0,"totalUsers":1,"totalOrders":0,"totalSales":0,"lowStockCount":0}
+3:23:25 PM [express] GET /api/auth/me 304 in 50ms :: {"id":1,"email":"admin@lucerne.com","role":"admin","fullName":"Store Admin","phone":null,"address":null,"isVerified":true,"isBlocked":false,"createdAt":"2026-04-19T15:10:27.567Z"}
+3:23:55 PM [express] GET /api/auth/me 304 in 17ms :: {"id":1,"email":"admin@lucerne.com","role":"admin","fullName":"Store Admin","phone":null,"address":null,"isVerified":true,"isBlocked":false,"createdAt":"2026-04-19T15:10:27.567Z"}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:24:11 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Auth.tsx, /src/pages/admin/Orders.tsx, /src/pages/DynamicCategoryPage.tsx, /src/pages/Shop.tsx, /src/pages/ProductDetails.tsx, /src/pages/admin/Categories.tsx, /src/pages/admin/Products.tsx, /src/pages/SalesPage.tsx, /src/pages/Home.tsx, /src/pages/Profile.tsx, /src/pages/CategoryPage.tsx, /src/components/layout/Navbar.tsx, /src/pages/Wishlist.tsx, /src/App.tsx, /src/pages/Checkout.tsx, /src/pages/admin/Users.tsx, /src/components/ui/ProductCard.tsx, /src/components/layout/AdminLayout.tsx, /src/pages/OrderConfirmation.tsx, /src/pages/admin/Dashboard.tsx[22m
+Cloudinary video upload error: Error: Must supply api_key
+    at ensureOption [90m(/home/runner/workspace/[39mnode_modules/[4mcloudinary[24m/lib/utils/ensureOption.js:19:13[90m)[39m
+    at Object.sign_request [90m(/home/runner/workspace/[39mnode_modules/[4mcloudinary[24m/lib/utils/index.js:1154:16[90m)[39m
+    at Object.process_request_params [90m(/home/runner/workspace/[39mnode_modules/[4mcloudinary[24m/lib/utils/index.js:1206:22[90m)[39m
+    at call_api [90m(/home/runner/workspace/[39mnode_modules/[4mcloudinary[24m/lib/uploader.js:488:18[90m)[39m
+    at Object.upload [90m(/home/runner/workspace/[39mnode_modules/[4mcloudinary[24m/lib/uploader.js:55:10[90m)[39m
+    at Object.upload_stream [90m(/home/runner/workspace/[39mnode_modules/[4mcloudinary[24m/lib/uploader.js:42:18[90m)[39m
+    at Object.upload_stream [90m(/home/runner/workspace/[39mnode_modules/[4mcloudinary[24m/lib/utils/index.js:1405:21[90m)[39m
+    at <anonymous> [90m(/home/runner/workspace/[39mserver/cloudinary.ts:38:40[90m)[39m
+    at new Promise (<anonymous>)
+    at uploadVideoToCloudinary [90m(/home/runner/workspace/[39mserver/cloudinary.ts:37:10[90m)[39m
+    at <anonymous> [90m(/home/runner/workspace/[39mserver/routes.ts:187:25[90m)[39m
+    at Layer.handleRequest [90m(/home/runner/workspace/[39mnode_modules/[4mrouter[24m/lib/layer.js:152:17[90m)[39m
+    at next [90m(/home/runner/workspace/[39mnode_modules/[4mrouter[24m/lib/route.js:157:13[90m)[39m
+    at <anonymous> [90m(/home/runner/workspace/[39mserver/routes.ts:181:7[90m)[39m
+    at done [90m(/home/runner/workspace/[39mnode_modules/[4mmulter[24m/lib/make-middleware.js:69:7[90m)[39m
+    at indicateDone [90m(/home/runner/workspace/[39mnode_modules/[4mmulter[24m/lib/make-middleware.js:73:68[90m)[39m
+    at Multipart.<anonymous> [90m(/home/runner/workspace/[39mnode_modules/[4mmulter[24m/lib/make-middleware.js:243:7[90m)[39m
+[90m    at Multipart.emit (node:events:524:28)[39m
+[90m    at emitCloseNT (node:internal/streams/destroy:147:10)[39m
+[90m    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)[39m
+3:24:11 PM [express] POST /api/upload-video 500 in 888ms :: {"message":"Video upload failed. Please try again."}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:24:16 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Auth.tsx, /src/pages/admin/Orders.tsx, /src/pages/DynamicCategoryPage.tsx, /src/pages/Shop.tsx, /src/pages/ProductDetails.tsx, /src/pages/admin/Categories.tsx, /src/pages/admin/Products.tsx, /src/pages/SalesPage.tsx, /src/pages/Home.tsx, /src/pages/Profile.tsx, /src/pages/CategoryPage.tsx, /src/components/layout/Navbar.tsx, /src/pages/Wishlist.tsx, /src/App.tsx, /src/pages/Checkout.tsx, /src/pages/admin/Users.tsx, /src/components/ui/ProductCard.tsx, /src/components/layout/AdminLayout.tsx, /src/pages/OrderConfirmation.tsx, /src/pages/admin/Dashboard.tsx[22m [33m(x2)[39m
+3:24:49 PM [express] GET /api/auth/me 304 in 22ms :: {"id":1,"email":"admin@lucerne.com","role":"admin","fullName":"Store Admin","phone":null,"address":null,"isVerified":true,"isBlocked":false,"createdAt":"2026-04-19T15:10:27.567Z"}
+3:25:19 PM [express] GET /api/auth/me 304 in 18ms :: {"id":1,"email":"admin@lucerne.com","role":"admin","fullName":"Store Admin","phone":null,"address":null,"isVerified":true,"isBlocked":false,"createdAt":"2026-04-19T15:10:27.567Z"}
+3:25:49 PM [express] GET /api/auth/me 304 in 46ms :: {"id":1,"email":"admin@lucerne.com","role":"admin","fullName":"Store Admin","phone":null,"address":null,"isVerified":true,"isBlocked":false,"createdAt":"2026-04-19T15:10:27.567Z"}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:26:00 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/pages/CheckoutSuccess.tsx, /src/pages/Cart.tsx, /src/pages/Checkout.tsx, /src/pages/ProductDetails.tsx, /src/components/layout/Navbar.tsx, /src/index.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:26:07 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/layout/Navbar.tsx, /src/index.css[22m
+3:26:08 PM [express] GET /api/cart 200 in 14ms
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:26:21 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/layout/Navbar.tsx, /src/index.css[22m [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:26:34 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Wishlist.tsx, /src/App.tsx, /src/pages/Profile.tsx, /src/pages/Checkout.tsx, /src/pages/Auth.tsx, /src/pages/ProductDetails.tsx, /src/pages/admin/Users.tsx, /src/components/ui/ProductCard.tsx, /src/components/layout/Navbar.tsx, /src/components/layout/AdminLayout.tsx, /src/pages/CheckoutSuccess.tsx, /src/pages/Cart.tsx, /src/index.css[22m
+3:26:38 PM [express] GET /api/auth/me 304 in 7ms :: {"id":1,"email":"admin@lucerne.com","role":"admin","fullName":"Store Admin","phone":null,"address":null,"isVerified":true,"isBlocked":false,"createdAt":"2026-04-19T15:10:27.567Z"}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:26:38 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/layout/Navbar.tsx, /src/index.css[22m
+3:26:39 PM [express] GET /api/cart 200 in 311ms
+3:27:03 PM [express] GET /api/site-settings 304 in 7ms :: {}
+3:27:03 PM [express] GET /api/auth/me 304 in 6ms :: {"id":1,"email":"admin@lucerne.com","role":"admin","fullName":"Store Admin","phone":null,"address":null,"isVerified":true,"isBlocked":false,"createdAt":"2026-04-19T15:10:27.567Z"}
+3:27:03 PM [express] GET /api/products 304 in 7ms :: []
+3:27:03 PM [express] GET /api/categories 304 in 6ms :: [{"id":1,"name":"Dresses","nameAr":"فساتين","slug":"dresses","image":null,"showOnHome":false,"sizeGuide":"auto"},{"id":2,"name":"Tops & Blouses","nameAr":"بلوزات وقمصان","slug":"tops","image":null,"showOnHome":false,"sizeGuide":"auto"},{"id":3,"name":"Pants & Skirts","nameAr":"بناطيل وتنانير","slug":"pants-skirts","image":null,"showOnHome":false,"sizeGuide":"auto"},{"id":4,"name":"Shoes","nameAr":"شوزات","slug":"shoes","image":null,"showOnHome":false,"sizeGuide":"auto"},{"id":5,"name":"Bags","nameAr":"حقائب","slug":"bags","image":null,"showOnHome":false,"sizeGuide":"auto"},{"id":6,"name":"Accessories","nameAr":"إكسسوارات","slug":"accessories","image":null,"showOnHome":false,"sizeGuide":"auto"}]
+3:27:04 PM [express] GET /api/cart 200 in 12ms

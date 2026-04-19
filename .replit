@@ -1,0 +1,61 @@
+modules = ["nodejs-20", "web", "postgresql-16"]
+run = "npm run dev"
+hidden = [".config", ".git", "generated-icon.png", "node_modules", "dist"]
+
+[nix]
+channel = "stable-24_05"
+packages = ["zip"]
+
+[[ports]]
+localPort = 5000
+externalPort = 80
+
+[env]
+PORT = "5000"
+
+[deployment]
+deploymentTarget = "autoscale"
+run = ["node", "./dist/index.cjs"]
+build = ["npm", "run", "build"]
+
+[workflows]
+runButton = "Project"
+
+[[workflows.workflow]]
+name = "Project"
+mode = "parallel"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "Start application"
+
+[[workflows.workflow]]
+name = "Start application"
+author = "agent"
+
+[workflows.workflow.metadata]
+outputType = "webview"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "npm run dev"
+waitForPort = 5000
+
+[agent]
+integrations = ["stripe:1.0.0"]
+expertMode = true
+
+[userenv]
+
+[userenv.shared]
+VITE_FIREBASE_API_KEY = "AIzaSyAf3Zj4ACc8Fuf6iq-LhY7dejHkWU6dg3o"
+VITE_FIREBASE_AUTH_DOMAIN = "lucerne-69027.firebaseapp.com"
+VITE_FIREBASE_PROJECT_ID = "lucerne-69027"
+VITE_FIREBASE_APP_ID = "1:333012566560:web:eb017d26e210d6029bf245"
+NODE_ENV = "production"
+CLOUDINARY_CLOUD_NAME = "dnt2lbk6r"
+EMAIL_USER = "lucernebq@gmail.com"
+ADMIN_EMAIL = "lucernebq@gmail.com"
+CLOUDINARY_API_SECRET = "NWHPlIKQXi_WCFu9Sn1mnZJiUYM"
+CLOUDINARY_API_KEY = "484497779199815"
